@@ -1,0 +1,238 @@
+/* Estilo geral */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1026;
+    color: white;
+}
+#home{
+    display: flex;
+}
+img.predio{
+    width: 200pt;
+    border-radius: 10%;
+    display: flex;
+    float: left;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0D1026;
+    padding: 20px 0;
+    color: white;
+    
+   
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    padding-top: 20pt;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 105pt;
+ 
+    
+}
+
+nav a:hover{
+    color: #03CA94;
+    border-bottom: 2px solid #03CA94;
+    
+}
+.auth-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-buttons a {
+    margin-left: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .auth-buttons a.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .auth-buttons a.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* Modal Styles */
+  
+  .modal {
+    display: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    float: left;
+    
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none}
+
+/* Seção principal */
+main {
+    padding: 40px 0;
+}
+.image-text-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-text-container img {
+    width: 40%; /* Adjust width as needed */
+    margin-right: 20px; /* Add margin between image and text */
+  }
+  
+  .text-content {
+    flex: 1; /* Allow text to grow to fill remaining space */
+  }
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Seção de projetos */
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.projeto {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.projeto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+/* Seção de contato */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0D1026;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.logo-nav-container {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Vertically center logo and navigation */
+  }
+  
+  .logo-nav-container img {
+    width: auto; /* Maintain aspect ratio */
+    height: 50px; /* Adjust height as needed */
+    margin-right: 20px; /* Add margin between logo and navigation */
+  }
+  
+  nav ul {
+    display: flex; /* Arrange list items in a row */
+    list-style: none; /* Remove default bullet points */
+    margin: 0; /* Reset default margins */
+    padding: 0; /* Reset default padding */
+  }
+  
+  nav li {
+    margin-left: 20px; /* Add margin between list items */
+  }
